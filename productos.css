@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('https://png.pngtree.com/background/20230520/original/pngtree-d-model-of-a-supermarket-with-shelves-of-foods-for-sale-picture-image_2669917.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: max-content;
+}
+/* titulo */
+h1 {
+    background: linear-gradient(135deg, #fa4416, #fa6d01);
+    font-family: monospace;
+    font-size: 100px;
+    color: #f5f6f2; 
+    text-align: center;
+    text-shadow: 4px 4px 8px black;
+}
+/* enfasis titulo */
+span {
+    color: #ff7e5f;
+    font-family: monospace;
+    padding-left: 20px;
+}
+/* menu interaccion */
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #ff9204, #fac401);
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    top:15px;
+    padding: 10px;
+    opacity: 0.8;
+    margin-bottom: 15px;
+}
+
+/* menu interaccion */
+.navigation a {
+    display: flex;
+    color: #080808;
+    padding: 15px;
+    align-items: center;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+/* Estilo  contenedor de items */
+.contenedor-items {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    gap: 20px; 
+    padding: 20px; 
+    background-color: #c8ae07; 
+    border: 2px solid #ddd; 
+    border-radius: 8px; 
+}
+/* Estilo  contenedor de items */
+.item {
+    background-color: #fafafd; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+/* Estilo  contenedor de items */
+.item figure {
+    margin: 0;
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+}
+/* foto  contenedor de items */
+.item img {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+    border-bottom: 1px solid #ddd; 
+}
+/* info-producto */
+.info-producto {
+    margin-top: 10px; 
+}
+/* info-producto */
+.info-producto input,
+.info-producto button {
+    margin-top: 10px; 
+}
+/* carrito */
+.carrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    background-color:#fbfbf9;
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* foto carrito */
+.carrito img {
+    width: 40px;
+    height: 40px;
+}
+/* contendorcarrito */
+.carrito-fondo {
+    display: flex;
+    flex-direction: row;
+    width:90%;
+    background-color: white;
+    justify-content: space-between;
+}
+/* contendorcarrito */
+.carrito-fondo span {
+    height: 50px;
+    border-radius: 8px;
+    font-size: 18px;
+    align-content: center;
+    padding: auto;
+}
+/* FOOTER */
+footer {
+    background-color: rgb(29, 63, 64);
+    opacity: 0.8;
+    color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+/* 2024 OLIMPO */
+footer h5 {
+    width: 100%;
+    font-size: 20px;
+}
+/* todos los derechos reservados */
+footer h6 {
+    width:50%;
+    font-size: 20px;
+}
+.total-gastado {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 120%;
+}
+

@@ -1,0 +1,127 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('https://png.pngtree.com/background/20230520/original/pngtree-d-model-of-a-supermarket-with-shelves-of-foods-for-sale-picture-image_2669917.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: max-content;
+    overflow-x: hidden;
+}
+
+/* titulo */
+h1 {
+    background: linear-gradient(135deg, #fa1616, hsl(14, 99%, 49%));
+    font-family: monospace;
+    font-size: 100px;
+    color: #f5f6f2; 
+    text-align: center;
+    text-shadow: 4px 4px 8px black;
+}
+/* enfasis titulo */
+span {
+    color: #ff7e5f;
+    font-family: monospace;
+    padding-left: 20px;
+}
+/* menu interaccion */
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #ff9204, #fac401);
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    top:15px;
+    padding: 10px;
+    opacity: 0.8;
+    margin-bottom: 15px;
+}
+
+.navigation a {
+    display: flex;
+    color: #080808;
+    padding: 15px;
+    align-items: center;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* INICIO EFECTOS DE CONTENEDOR DE INTRODUCCION */
+p { 
+    background: linear-gradient(135deg, #fa4416, #fa6d01);
+    opacity: 0.9;
+    color: #fbfbf9; 
+    width: 70%;
+    height: 200px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 10px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    }
+    .text-container {
+        display: flex;
+    }
+    
+    .zoom-text {
+        display: inline-block;
+        font-size: 30px;
+        animation: zoomIn 0.8s forwards;
+    }
+    
+    .zoom-text efecto {
+        display: inline;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        opacity: 0;
+        transform: scale(0.8);
+        animation: zoomLetter 2s forwards;
+    }
+    /* efecto contenedor */
+    @keyframes zoomIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+    
+    @keyframes zoomLetter {
+        0% { opacity: 0; transform: scale(0.5); }
+        100% { opacity: 1; transform: scale(0.1); }
+    }
+/* FIN DE EFECTOS DE CONTENEDOR DE INTRODUCCION */
+
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(29, 63, 64);
+    opacity: 0.8;
+    color: white;
+    width: 100%;
+    height: 100px;
+    letter-spacing: 6px;
+}
+
+
+.carousel-inner {
+    display: flex;
+    width:100%;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    align-self: center;
+    margin: 20px;
+}
+img {
+    display: flex;
+    width: 90%;
+    height: 200px;
+
+}
